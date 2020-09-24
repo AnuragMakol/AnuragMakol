@@ -9,25 +9,16 @@
         <meta name="description" content="{{ $page->description }}">
         <title>{{ $page->title }}</title>
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-        <link href='https://fonts.googleapis.com/css?family=Poppins:200,400,500,700,800&display=swap' rel='stylesheet' type='text/css'>                     
-        <link rel="stylesheet" href="assets/css/clear.css">
-        <link rel="stylesheet" href="assets/css/bootstrap-grid.css">      
-        <link rel="stylesheet" href="assets/css/prettyPhoto.css">
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/base.css">  
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/vendor.css">     
+        <script src="assets/js/modernizr.js"></script>
+        <script src="assets/js/pace.min.js"></script>
     </head>
-    <body class="one-page">
+    <body id="top">
         @yield('body')
-
-        <script src="assets/js/jquery.js"></script>       
-        <script src="assets/js/imagesloaded.pkgd.js"></script>
-        <script src="assets/js/jquery.fitvids.js"></script>
-        <script src="assets/js/jarallax.js"></script>
-        <script src="assets/js/jarallax-element.min.js"></script>
-        <script src="assets/js/isotope.pkgd.js"></script>        
-        <script src="assets/js/jquery.prettyPhoto.js"></script>                
-        <script src='assets/js/owl.carousel.min.js'></script>                                                            
+        <script src="assets/js/jquery-2.1.3.min.js"></script>
+        <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
     </body>
 </html>
